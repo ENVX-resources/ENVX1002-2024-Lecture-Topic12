@@ -1,0 +1,24 @@
+project:
+  title: SOLES Quarto presentation
+standalone: true
+slide-level: 2
+highlight-style: github
+revealjs-plugins:
+  - verticator
+filters:
+  - _assets/shortcodes.lua
+format:
+  soles-revealjs:
+    logo: images/usyd_horizontal.svg
+    self-contained: false # set to true to produce a single HTML file
+    transition: none # none | fade | slide | convex | concave | zoom
+    background-transition: none
+  # pdf:
+  #   pdfengine: xetex
+  #   fontsize: 12pt # 10, 11, or 12pt
+  #   mainfont: Arial # main text Open Sans
+  #   sansfont: Arial # header text Open Sans
+  #   classoption: landscape
+  #   pagestyle: empty
+  # pptx: # not configured, will work on it later
+  #   reference-doc: _assets/usyd.pptx

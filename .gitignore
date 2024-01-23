@@ -1,0 +1,15 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+*_files/
+/.quarto/
+
+/.luarc.json
+
+
+template.html
+template.pdf
+
+~$*.pptx
