@@ -22,3 +22,5 @@ format:
   #   pagestyle: empty
   # pptx: # not configured, will work on it later
   #   reference-doc: _assets/usyd.pptx
+execute:
+  freeze: auto
