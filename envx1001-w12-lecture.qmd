@@ -1,6 +1,6 @@
 ---
-title: Quarto reveal.js Template
-subtitle: School of Life and Environmental Sciences (SOLES)
+title: Non-linear regression
+subtitle: ENVX1002 Introduction to Statistical Methods
 author: Januar Harianto
 institute: The University of Sydney
 date: last-modified # today | last-modified
@@ -8,7 +8,7 @@ date-format: "MMM YYYY" # see https://momentjs.com/docs/#/displaying/format/
 execute: 
   eval: true
   echo: true
-self-contained: false
+self-contained: true
 ---
 
 
