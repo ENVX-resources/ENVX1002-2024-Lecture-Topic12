@@ -1,7 +1,7 @@
 ---
 title: Non-linear regression
 subtitle: ENVX1002 Introduction to Statistical Methods
-author: Januar Harianto
+author: Liana Pozza
 institute: The University of Sydney
 date: last-modified # today | last-modified
 date-format: "MMM YYYY" # see https://momentjs.com/docs/#/displaying/format/
@@ -634,9 +634,9 @@ $$ y = a + b(1 - e^{-cx}) $$
 - $b$ is the upper limit: the maximum value of $y$.
 - $c$ is the rate of change: the rate at which $y$ approaches the upper limit.
 
-. . .
+. . . 
 
-```{r}
+```{r, out.width="50%"}
 #| code-fold: true
 ggplot(data = asymptotic, aes(x = predictor, y = response)) +
   geom_point() + 
@@ -690,10 +690,8 @@ summary(fit_asymptotic)
 - The parameterised model is:
 
 $$ y = -14.5 + 113.04(1 - e^{-0.63x}) $$
-
-:::{.callout-note}
 The R-square value is not reported for nonlinear models as the sum of squares is not partitioned into explained and unexplained components.
-:::
+
 
 
 # Another example: Fitting a logistic model
@@ -733,7 +731,7 @@ $$ y = c + \frac{d-c}{1+e^{-b(x-a)}} $$
 
 . . .
 
-```{r}
+```{r, out.width="50%"}
 #| code-fold: true
 ggplot(data = logistic, aes(x = predictor, y = response)) +
   geom_point() +
